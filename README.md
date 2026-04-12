@@ -2,12 +2,16 @@
 
 > **AmneziaWG Stealth Tunnel** • **Gost v3 HTTP Bridge** • **3x‑ui Integration**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Ubuntu](https://img.shields.io/badge/Ubuntu-20.04%20|%2022.04%20|%2024.04-orange)](https://ubuntu.com)
-[![Version](https://img.shields.io/badge/Version-8.0_Bridge-green)](https://github.com/fdoo24/3x-ui-autoinstall/releases)
+<p align="center">
+  <img src="https://img.shields.io/badge/Ubuntu-20.04%2B-orange?style=for-the-badge&logo=ubuntu" alt="Ubuntu">
+  <img src="https://img.shields.io/badge/WireGuard-AmneziaWG-blue?style=for-the-badge&logo=wireguard" alt="AmneziaWG">
+  <img src="https://img.shields.io/badge/Gost-v3-green?style=for-the-badge" alt="Gost v3">
+  <img src="https://img.shields.io/badge/3x--ui-Panel-red?style=for-the-badge" alt="3x-ui">
+  <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" alt="License">
+</p>
 
 <p align="center">
-  <strong>VPN Fortress: Bridge Edition</strong> — это автоматизированный скрипт развертывания для 3x-ui, который внедряет обфусцированный туннель <strong>AmneziaWG</strong> через локальный HTTP-мост. Решение оптимизировано для обхода глубокой инспекции пакетов (DPI) и обеспечения стабильной работы в условиях жестких региональных блокировок.
+  <strong>VPN Fortress: Bridge Edition</strong> — это автоматизированный скрипт развертывания, который внедряет обфусцированный туннель <strong>AmneziaWG</strong> через локальный HTTP-мост.
 </p>
 
 ## ✨ Основные особенности
@@ -18,7 +22,6 @@
 | 🌉 **Gost v3 Bridge** | Локальный HTTP-мост на `127.0.0.1:18081`, который позволяет обходить ограничения панели 3x-ui по управлению интерфейсами. |
 | 🔒 **Systemd Persistence** | Автоматический запуск интерфейса `awg0` и моста Gost в виде системных сервисов сразу после загрузки сервера. |
 | 🛠️ **No-Patch Integration** | Добавление исходящих соединений (Outbounds) в 3x-ui как обычных прокси-серверов без вмешательства в ядро панели. |
-| 🌐 **Cloudflare WARP** | Маскировка реального IP-адреса VPS за адресами Cloudflare для повышения анонимности и обхода гео-ограничений. |
 
 ## ⚙️ Предварительные требования
 1. Чистый сервер на базе **Ubuntu** (20.04, 22.04 или 24.04).
