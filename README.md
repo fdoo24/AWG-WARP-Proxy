@@ -33,7 +33,7 @@
 Для автоматической настройки туннеля и моста выполните команду:
 
 ```bash
-wget -qO setup_bridge.sh https://raw.githubusercontent.com/fdoo24/3x-ui-autoinstall/main/setup_bridge.sh && bash setup_bridge.sh
+curl -fsSL https://raw.githubusercontent.com/fdoo24/AWG-WARP-Proxy/refs/heads/main/setup_bridge.sh | bash
 ```
 
 ## 🔧 Настройка Outbound в 3x-ui
