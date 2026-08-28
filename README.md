@@ -36,6 +36,10 @@
 curl -fsSL https://raw.githubusercontent.com/fdoo24/AWG-WARP-Proxy/refs/heads/main/setup_bridge.sh | bash
 ```
 
+Если нужен только AWG Warp чрез SOCKS5 на сервере, то этот. будет слушать 18081 порт.
+```bash
+curl -fsSL https://raw.githubusercontent.com/fdoo24/AWG-WARP-Proxy/refs/heads/main/setup_warp_awg.sh | bash
+```
 ## 🔧 Настройка Outbound в 3x-ui
 
 После завершения установки вы можете вручную добавить выход через WARP:
